@@ -23,7 +23,13 @@ body {
     line-height: 30px;
  }
 
-
+.my-wrapper{
+	background-color: rgba(184,138,0,0.5);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(184,138,0);
+	padding: 1%;
+}
  .my-wrapper h2 {
  	color: yellow;
  }
