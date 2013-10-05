@@ -3,6 +3,7 @@ Testapp100::Application.routes.draw do
   # first created -> highest priority.
 
   root :to => 'staticpages#index'
+  resources :pics 
 
 
   # Sample of regular route:
