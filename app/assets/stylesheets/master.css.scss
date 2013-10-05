@@ -1,0 +1,9 @@
+body {
+	background: url('background-paris.jpg') no-repeat center center fixed;;
+	 /*Just adding the raw image*/
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
