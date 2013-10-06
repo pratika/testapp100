@@ -1,0 +1,19 @@
+<div class = "custom-title">
+	<h1 class="custom-font1"> Upload Your Pic </h1>
+</div>
+
+<div class = "my-wrapper span4">
+	<%= simple_form_for @pic do |f| %>
+	<%= f.input :hour %>
+	<%= f.input :emotion %>
+	<%= f.input :learned %>
+	<div class = "btn btn-warning">
+		<%= submit_tag "Save" %>
+	</div>
+	
+<% end %>	
+</div>
+
+
+
+
