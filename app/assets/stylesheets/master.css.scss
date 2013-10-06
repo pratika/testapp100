@@ -35,8 +35,9 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(184,138,0);
-	height: 200px;
+	height: 30%;
 	margin-bottom: 25px;
+	padding: 1%;
 }
  .my-wrapper h2 {
  	color: yellow;
@@ -72,9 +73,11 @@ body {
  	width: 90%;
  }
 
- .image {
- 	max-height: 50px;
- }
+img {
+	height:100px;
+	width:200px;
+	padding: 25px;
+}
 
 
 /*.center-input {
