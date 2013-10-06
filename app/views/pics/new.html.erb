@@ -2,12 +2,12 @@
 	<h1 class="custom-font3">Upload Your Pic</h1>
 </div>
 
-<div class = "my-wrapper span4 offset5 text-center">
+<div class = "my-wrapper2 span4 offset5 text-center">
 	<%= simple_form_for @pic  do |f| %>
-	<%= f.input :hour, label_html: { class: 'custom-font-form' } %>
-	<%= f.input :emotion, label_html: { class: 'custom-font-form' }%>
-	<%= f.input :learned, label_html: { class: 'custom-font-form' } %>
-	<%= submit_tag "Save", :class => 'btn btn-large btn-warning' %>
+	<%= f.input :hour,label: 'Which hour?', label_html: { class: 'custom-font-form' } %>
+	<%= f.input :emotion,label: 'how you feelin`', label_html: { class: 'custom-font-form' }%>
+	<%= f.input :learned,label: 'Whatch you learnin`', label_html: { class: 'custom-font-form' } %>
+	<%= submit_tag "Save", class: 'btn btn-large btn-warning' %>
 <% end %>	
 </div>
 
